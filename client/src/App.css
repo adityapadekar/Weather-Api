@@ -1,0 +1,81 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title-head{
+    text-decoration: underline;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.input-label{
+    padding-bottom: 0.5rem
+}
+
+.input-box{
+    border-radius: 4px;
+    border: 2px solid black;
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.btn-box{
+    padding-top: 0.5rem;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    
+}
+
+.btn{
+    margin: 0.5rem;
+}
+
+.result{
+    width: 80%;
+}
+
+
+
+.result-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-main{
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 700px) {
+    .input-box{
+        width: 534px;
+    }
+    .btn-box,
+    .result{
+        width: 600px;
+    }
+  
+}
+
