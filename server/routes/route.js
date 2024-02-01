@@ -1,14 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const { getWeather } = require("../controllers/getData");
+const { getWeather } = require("../controllers/get-weather");
 
+/**
+ * Post route to get the weather data from third party weather api
+ */
 router.route("/getWeather").post(getWeather);
-
-
-// Checking
-
-// router.route("/").get(async (req, res) => {
-//     res.send("HIIII");
-// });
 
 module.exports = router;
