@@ -23,7 +23,7 @@ export const Content = () => {
 
         try {
             const response = await axios.post(
-                `http://localhost:8080/getWeather`,
+                `https://weather-api-tawny-two.vercel.app/getWeather`,
                 {
                     cities: cities.split(",").map((city) => city.trim()),
                 }
